@@ -1,0 +1,81 @@
+@use "../../foundation/color" as c;
+@use "../../foundation/mixin" as m;
+
+.pg-exhibitor__nav {
+    background: c.$sub;
+    padding: 60px 0;
+
+    nav {
+        display: grid;
+        grid-template-columns: .68fr .84fr .46fr 1fr 1fr .53fr .75fr;
+        justify-content: space-between;
+        column-rule: 1px dotted #fff;
+        gap: 60px;
+
+        @media (width < 840px) {
+            row-rule: 1px dotted #fff;
+            justify-content: center;
+            gap: 30px 0;
+        }
+
+        @media (width < 840px) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        a {
+            display: block;
+            position: relative;
+            transition: all 0.3s ease;
+            top: 0;
+
+            @media (width < 840px) {
+                width: 33.333%;
+                
+                &:first-of-type {
+                    img{
+                        width: 60%;
+                    }
+                }
+
+                &:nth-of-type(2) {
+                    img{
+                        width: 70%;
+                    }
+                }
+
+                &:nth-of-type(3) {
+                    img{width: 38%;}
+                }
+
+                &:nth-of-type(4) {
+                    img{width: 80%;}
+                }
+
+                &:nth-of-type(5) {
+                    img{width: 80%;}
+                }
+                &:nth-of-type(6) {
+                    img{width: 45%;}
+                }
+
+                &:nth-of-type(7) {
+                    img{width: 60%;}
+                }
+            }
+
+            @media(any-hover: hover) {
+                &:hover {
+                    top: 5px;
+                }
+            }
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            margin-inline: auto;
+            filter: drop-shadow(4px 4px 0 rgba(0, 0, 0, 0.15));
+        }
+    }
+}

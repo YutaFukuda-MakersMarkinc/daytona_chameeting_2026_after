@@ -1,0 +1,100 @@
+<%
+    page = 'exhibitor'
+    /* 開発 */
+    path = '../'
+
+    /* 本番 */
+    //path = '/special/cha_mt_2026/'
+%>
+<%-
+    include('../layout/_head', {
+        meta: pageData['exhibitor']
+    });
+%>
+
+<main class="pg-exhibitor">
+    <section class="pg-exhibitor__head">
+        <div class="title">
+            <img src="<%= path %>images/exhibitor/title_left.webp" alt="">
+            <h2><img src="<%= path %>images/exhibitor/title.webp" alt=""></h2>
+            <img src="<%= path %>images/exhibitor/title_right.webp" alt="">
+        </div>
+    </section>
+
+    <section class="pg-exhibitor__map">
+        <details>
+            <summary class="pg-exhibitor__map_button">
+                会場内マップはこちら
+            </summary>
+            <div>
+                <a href="<%= path %>images/exhibitor/event_map_20260924_02.pdf" target="_blank">
+                    <img src="<%= path %>images/exhibitor/event_map_20260924_02.webp" alt="会場内マップ">
+                </a>
+                <a href="<%= path %>images/exhibitor/event_map_20260924_02.pdf" target="_blank" class="c-button__round yellow pdf_btn" download="茶ミーティング2026 会場マップ.pdf">
+                    ダウンロードする
+                </a>
+            </div>
+        </details>
+
+    </section>
+
+    <div class="pg-exhibitor__nav">
+        <nav class="l-container">
+            <a href="#local"><img src="<%= path %>images/exhibitor/menu_01.webp" alt="地域振興"></a>
+            <a href="#bike"><img src="<%= path %>images/exhibitor/menu_02.webp" alt="車両メーカー"></a>
+            <a href="#food"><img src="<%= path %>images/exhibitor/menu_03.webp" alt="飲食店"></a>
+            <a href="#exhibition"><img src="<%= path %>images/exhibitor/menu_04.webp" alt="商品展示・販売"></a>
+            <a href="#exhibition02"><img src="<%= path %>images/exhibitor/menu_07.webp" alt="商品展示・紹介"></a>
+            <a href="#media"><img src="<%= path %>images/exhibitor/menu_05.webp" alt="メディア"></a>
+            <a href="#youtuber"><img src="<%= path %>images/exhibitor/menu_06.webp" alt="Youtuber"></a>
+        </nav>
+    </div>
+
+    <section class="pg-exhibitor__list">
+        <div class="list l-container c-anchor" id="local">
+            <h2><img class="title_local" src="<%= path %>images/exhibitor/title_local.webp" alt="地域振興"></h2>
+            <ul class="col4" id="exhibitor_local">
+            </ul>
+        </div>
+
+        <div class="list l-container c-anchor" id="bike">
+            <h2><img class="title_bike" src="<%= path %>images/exhibitor/title_bike.webp" alt="車両メーカー"></h2>
+            <ul class="col4" id="exhibitor_bike">
+            </ul>
+        </div>
+
+        <div class="list l-container c-anchor" id="food">
+            <h2><img class="title_food" src="<%= path %>images/exhibitor/title_food.webp" alt="飲食店"></h2>
+            <ul class="col4" id="exhibitor_food">
+            </ul>
+        </div>
+
+        <div class="list l-container c-anchor" id="exhibition">
+            <h2><img class="title_exhibition" src="<%= path %>images/exhibitor/title_exhibition.webp" alt="商品展示・販売"></h2>
+            <ul class="col4" id="exhibitor_exhibition">
+            </ul>
+        </div>
+
+        <div class="list l-container c-anchor" id="exhibition02">
+            <h2><img class="title_exhibition" src="<%= path %>images/exhibitor/title_exhibition02.webp" alt="商品展示・紹介"></h2>
+            <ul class="col4" id="exhibitor_exhibition02">
+            </ul>
+        </div>
+
+        <div class="list l-container c-anchor" id="media">
+            <h2><img class="title_media" src="<%= path %>images/exhibitor/title_media.webp" alt="メディア"></h2>
+            <ul class="col4" id="exhibitor_media">
+            </ul>
+        </div>
+
+        <div class="list l-container c-anchor" id="youtuber">
+            <h2><img class="title_youtuber" src="<%= path %>images/exhibitor/title_youtuber.webp" alt="Youtuber"></h2>
+            <ul class="col4" id="exhibitor_youtuber">
+            </ul>
+        </div>
+    </section>
+</main>
+
+<%- include('../layout/_footer', {
+    meta: pageData['exhibitor']
+}); %>

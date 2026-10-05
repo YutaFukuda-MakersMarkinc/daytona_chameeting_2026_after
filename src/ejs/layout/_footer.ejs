@@ -1,0 +1,79 @@
+
+    <footer id="js-footer" class="l-footer">
+        <div class="pict pict_01" data-interval="650">
+            <img src="<%= path %>images/index/pict_03_01.webp" alt="">
+            <img src="<%= path %>images/index/pict_03_02.webp" alt="">
+        </div>
+        <div class="pict pict_02" data-interval="800">
+            <img src="<%= path %>images/index/pict_04_01.webp" alt="">
+            <img src="<%= path %>images/index/pict_04_02.webp" alt="">
+        </div>
+        <div class="pict pict_03" data-interval="720">
+            <img src="<%= path %>images/index/pict_05_01.webp" alt="">
+            <img src="<%= path %>images/index/pict_05_02.webp" alt="">
+        </div>
+        
+
+        <div class="nav l-container">
+            <div class="left">
+                <a href="https://www.daytona.co.jp/" class="logo"><img src="<%= path %>images/common/footer_logo.webp" alt=""></a>
+                <address>
+                    〒437-0226<br>
+                    静岡県周智郡森町一宮4805
+                </address>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="https://www.daytona.co.jp/products/">商品情報</a></li>
+                    <li><a href="https://www.daytona.co.jp/brands/">ブランド</a></li>
+                    <li><a href="https://www.daytona.co.jp/catalog/">Webカタログ</a></li>
+                    <li><a href="https://www.daytona.co.jp/support/">お客様サポート</a></li>
+                    <li><a href="https://www.daytona.co.jp/mybike/">マイバイク登録</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="https://corporate.daytona.co.jp/?_gl=1*1ep37qt*_gcl_au*MTEzMzQwODg1Mi4xNzc5MjYzMDAz*_ga*MjU1MDY3ODg1LjE3NTk3NDA0MTU.*_ga_ZCP75E4XJY*czE3NzkzNTM0NjQkbzIxJGcxJHQxNzc5MzUzNDk1JGoyOSRsMCRoMA..">企業・IR情報</a></li>
+                    <li><a href="https://www.daytona.co.jp/shop-search/">販売店情報</a></li>
+                    <li><a href="https://www.daytona.co.jp/report/">活動レポート</a></li>
+                    <li><a href="https://www.daytona.co.jp/news/">ニュース</a></li>
+                    <li><a href="https://webmagazine.daytona.co.jp/blogs/">デイトナブログ</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="https://www.daytona.co.jp/terms/">サイトのご利用にあたって</a></li>
+                    <li><a href="https://www.daytona.co.jp/privacy/">個人情報保護方針</a></li>
+                    <li><a href="https://www.daytona.co.jp/sitemap/">サイトマップ</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col2 l-container">
+            <p class="copyright"><small>Copyright© 2026 All Rights Reserved.</small></p>
+
+            <ul class="sns">
+                <p>Daytona official SNS</p>
+                <li><a href="https://x.com/DAYTONA_JP"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/daytona.co.jp/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/daytona.co.jp/"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://www.youtube.com/user/daytona174"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+        
+        </div>
+    </footer>
+
+    <!--GSAP-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>	
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
+
+    <!-- common -->
+    <script type="text/javascript" src="<%= path %>js/script.min.js" charset="UTF-8"></script>
+    
+    <% if (meta['page'] === "top") { %>
+        <script type="text/javascript" src="<%= path %>js/pg-index.js" charset="UTF-8"></script>
+    <% } %>
+
+    <% if (meta['page'] === "exhibitor") { %>
+        <script type="text/javascript" src="<%= path %>js/pg-exhibitor.js" charset="UTF-8"></script>
+    <% } %>
+</body>
+</html>

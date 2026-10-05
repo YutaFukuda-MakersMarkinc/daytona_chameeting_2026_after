@@ -1,0 +1,21 @@
+//main color
+$black: #333333;
+$white: #FFFFFF;
+$primary: #0298ec;
+$sub: #0b991e;
+$yellow: #ffe600;
+$red: #fe0000;
+
+.color{
+    &.red{
+        color: $red;
+    }
+
+    &.bg_yellow{
+        background-color: $yellow;
+    }
+
+    &.bg_blue{
+        background-color: $primary;
+    }
+}

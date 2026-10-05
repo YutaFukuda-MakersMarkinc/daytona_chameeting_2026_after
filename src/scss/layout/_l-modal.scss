@@ -1,0 +1,176 @@
+@use "../foundation/color" as c;
+@use "../foundation/mixin" as m;
+
+.l-modal {
+    position: fixed;
+    display: grid;
+    place-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100dvh;
+    z-index: 1000;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity .3s ease, visibility .3s;
+
+    &.is-open {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .back {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(10px);
+        cursor: pointer;
+    }
+
+    .modal_content {
+        position: relative;
+        padding: 45px;
+        z-index: 100;
+        filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+        width: 80%;
+
+        @media (width < 640px) {
+            padding: 45px 15px;
+        }
+    }
+
+    h2 {
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto 15px;
+    }
+
+    .intro {
+        text-align: center;
+        font-weight: 700;
+        font-size: clamp(.9rem, 2vw, 1.3rem);
+        line-height: 1.5;
+
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
+
+    .scroll{
+        max-height: 75dvh;
+        overflow: scroll;
+    }
+
+    .col2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 45px;
+        margin-bottom: 30px;
+
+        @include m.mq(sp) {
+            grid-template-columns: 1fr;
+        }
+
+        dl {
+            background: white;
+
+            &.item_01 {
+                dt {
+                    img {
+                        max-width: 450px;
+                        width: 100%;
+                    }
+                }
+            }
+
+            &.item_02 {
+                dt {
+                    img {
+                        max-width: 200px;
+                        width: 70%;
+                    }
+                }
+            }
+        }
+
+        dt {
+            padding: 20px;
+
+            img {
+                margin-inline: auto;
+            }
+        }
+
+        dd {
+            padding: 20px 30px;
+            font-weight: 600;
+
+            @media (width < 640px) {
+                padding: 10px 20px;
+            }
+
+            li {
+                &:not(:last-of-type) {
+                    padding-bottom: 15px;
+                    margin-bottom: 15px;
+                    border-bottom: solid 1px #999;
+                }
+
+                p {
+                    font-size: clamp(.9rem, 1.5vw, 1.2rem);
+                    line-height: 1.6;
+                    letter-spacing: .03em;
+
+                    &.big {
+                        font-size: clamp(1.1rem, 2vw, 1.5rem);
+                    }
+                }
+            }
+        }
+    }
+
+    .modal_pict{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+
+        &.pict_01{
+            min-width: 75px;
+            width: 15%;
+            left: -5%;
+            top: -6%;
+
+            @media (width < 640px) {
+                left: -8%;
+            }
+        }
+
+        &.pict_02{
+            min-width: 55px;
+            top: 30%;
+            left: -8%;
+            width: 12%;
+        }
+
+        &.pict_03{
+            min-width: 100px;
+            top: 75%;
+            left: auto;
+            right: -10%;
+            width: 20%;
+
+            @media (width < 640px) {
+                top: 65%;
+                right: -12%;
+                transform: rotate(25deg);
+            }
+        }
+    }
+}

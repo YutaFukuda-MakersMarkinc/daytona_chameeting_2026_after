@@ -1,0 +1,91 @@
+@use "sass:map";
+
+/*---------- 
+media query
+----------*/
+$breakpoints: (
+    sp_min: "screen and (max-width: 480px)",
+    sp_only: "screen and (min-width:896px) and (max-width:481px)",
+    sp: "screen and (max-width: 869px)",
+    pc: "screen and (max-width: 999px)",
+);
+@mixin mq($breakpoint) {
+    @media #{map.get($breakpoints, $breakpoint)} {
+        @content;
+    }
+}
+
+/*---------- 
+layouts
+----------*/
+@mixin flexbox($justify-content:null, $align-items:null, $flex-wrap:null) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    flex-wrap: $flex-wrap;
+}
+
+@mixin centering($ypos:0, $xpos:0) {
+    -webkit-transform: translateY($ypos) translateX($xpos);
+    -moz-transform: translateY($ypos) translateX($xpos);
+    -ms-transform: translateY($ypos) translateX($xpos);
+    -o-transform: translateY($ypos) translateX($xpos);
+    transform: translateY($ypos) translateX($xpos);
+}
+
+/*---------- 
+create triangle
+----------*/
+// ex) @include triangle(#000, 6px, 6px, top); 色, width, height, 底辺の方向(top/right/bottom/left)
+@mixin triangle($color: #000, $width: 10px, $height: 10px, $dir: bottom) {
+    width: 0;
+    height: 0;
+    @if $dir == 'bottom' {
+        border-width: 0 #{$width/2} #{$height} #{$width/2};
+        border-color: transparent transparent $color transparent;
+    } @else if $dir == 'top' {
+        border-width: #{$height} #{$width/2} 0 #{$width/2};
+        border-color: $color transparent transparent transparent;
+    } @else if $dir == 'left' {
+        border-width: #{$height/2} 0 #{$height/2} #{$width};
+        border-color: transparent transparent transparent $color;
+    } @else if $dir == 'right' {
+        border-width: #{$height/2} #{$width} #{$height/2} 0;
+        border-color: transparent $color transparent transparent;
+    }
+    border-style: solid;
+}
+
+/*---------- 
+transition
+----------*/
+@mixin animate($target:all, $duration:.15s, $easing:ease-in-out) {
+    -webkit-transition: $target $duration $easing;
+    -moz-transition: $target $duration $easing;
+    -ms-transition: $target $duration $easing;
+    -o-transition: $target $duration $easing;
+    transition: $target $duration $easing;
+}
+
+/*---------- 
+animation
+----------*/
+@mixin animation($animation-name) {
+    -webkit-animation: $animation-name;
+    -moz-animation: $animation-name;
+    animation: $animation-name;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@mixin keyframes($animation-name) {
+    @-webkit-keyframes #{$animation-name} {
+        @content;
+    }
+    @-moz-keyframes #{$animation-name} {
+        @content;
+    } 
+    @keyframes #{$animation-name} {
+        @content;
+    }
+}

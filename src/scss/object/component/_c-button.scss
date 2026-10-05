@@ -1,0 +1,88 @@
+@use "../../foundation/color" as c;
+@use "../../foundation/mixin" as m;
+
+.c-button{
+    &__close{
+        position: absolute;
+        top: 0;
+        left: 100%;
+        transform: translate(-50%, -50%);
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        background-color: White;
+        transition: all 0.3s ease;
+        filter: drop-shadow(0 0 10px rgba(0,0,0,0.28));
+
+        @media (width < 640px) {
+            width: 80px;
+            height: 80px;
+        }
+
+        @media (any-hover: hover) {
+            &:hover {
+                width: 110px;
+                height: 110px;
+
+                @media (width < 640px) {
+                    width: 90px;
+                    height: 90px;
+                }
+            }
+        }
+
+        &::before{
+            position: absolute;
+            content: '';
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: calc(100% - 10px);
+            height: calc(100% - 10px);
+            border: 3.5px solid black;
+            border-radius: 100vmax;
+        }
+        
+        span{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 30px;
+            height: 30px;
+
+            &::before,
+            &::after{
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 30px;
+                height: 4px;
+                background-color: black;
+                border-radius: 100vmax;
+            }
+
+            &::before{
+                transform: translate(-50%, -50%) rotate(45deg);
+            }
+
+            &::after{
+                transform: translate(-50%, -50%) rotate(-45deg);
+            }
+        }
+    }
+
+    &__round{
+        border-radius: 100vmax;
+        background: c.$primary;
+        color: c.$white;
+        padding: 10px 20px;
+
+        &.yellow{
+            background: c.$yellow;
+            color: black;
+        }
+    }
+}

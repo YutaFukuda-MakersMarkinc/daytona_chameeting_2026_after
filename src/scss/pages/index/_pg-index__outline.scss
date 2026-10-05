@@ -1,0 +1,55 @@
+@use "../../foundation/mixin" as m;
+@use "../../foundation/color" as c;
+
+.pg-index__outline {
+    padding: 90px 0;
+
+    h3{
+        max-width: 700px;
+        width: 100%;
+        margin-inline: auto;
+        margin-bottom: 60px;
+        @media (width < 640px) {
+            margin-bottom: 40px;
+        }
+    }
+
+    h2{
+        max-width: 250px;
+        width: 40%;
+        margin-inline: auto;
+        margin-bottom: 90px;
+
+        @media (width < 640px) {
+            margin-bottom: 60px;
+        }
+    }
+
+    dl{
+        max-width: 1000px;
+        width: 100%;
+        margin-inline: auto;
+        display: grid;
+        grid-template-columns: 160px 1fr;
+        gap: 0;
+        font-weight: 600;
+        font-size: clamp(1.1rem,2vw,1.6rem);
+
+        @media (width < 640px) {
+            grid-template-columns: 140px 1fr;
+        }
+
+        @include m.mq(sp_min){
+            grid-template-columns: 120px 1fr;
+        }
+
+        dt,dd{
+            padding-bottom: 30px;
+            border-bottom: solid 1px black;
+
+            &:not(:last-of-type){
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

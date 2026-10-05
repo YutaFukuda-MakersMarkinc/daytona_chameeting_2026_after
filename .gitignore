@@ -1,0 +1,8 @@
+# dev env
+node_modules
+.DS_Store
+
+# folder
+fonts/
+src/images/
+dist/images/

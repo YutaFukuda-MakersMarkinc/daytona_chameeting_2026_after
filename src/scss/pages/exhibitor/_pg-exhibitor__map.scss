@@ -1,0 +1,54 @@
+@use "../../foundation/color" as c;
+@use "../../foundation/mixin" as m;
+
+.pg-exhibitor__map {
+    position: relative;
+    padding-bottom: 4rem;
+    background-color: #0b991e;
+
+    details {
+        display: block;
+        width: 80%;
+        max-width: 1500px;
+        margin: 0 auto;
+        summary {
+            background: rgba(255, 204, 0, 1);
+            padding: 20px;
+            border-radius: 100vmax;
+            overflow: hidden;
+            filter: drop-shadow(10px 10px 0 rgba(0, 0, 0, 0.5));
+
+            font-size: 1.35rem;
+            font-weight: 600;
+            text-align: center;
+            width: 100%;
+            max-width: 630px;
+            margin: 0 auto 2rem;
+
+        }
+
+        div {
+            width: 100%;
+            max-width: 960px;
+            border-radius: 2rem;
+            margin: 0  auto;
+            background: c.$white;
+            overflow: hidden;
+            padding: 2rem;
+            img {
+                display: block;
+                width: 100%;
+                margin-bottom: 2rem;
+            }
+            a.c-button__round {
+                display: block;
+                margin: 0 auto;
+                font-size: 1.35rem;
+                font-weight: 600;
+                text-align: center;
+                max-width: 420px;
+
+            }
+        }
+    }
+}

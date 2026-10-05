@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N5NFSPSW');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <title>
+        <%= meta.title %>
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="<%= meta.description %>">
+    <meta name="keywords" content="">
+    <!-- ogp -->
+    <meta property="og:title" content="茶ミーティング2026｜第15回 DAYTONA 森町・静岡茶ミーティング" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.daytona.co.jp/special/cha_mt_2026/<%= meta.dir %>" />
+    <meta property="og:image" content="https://www.daytona.co.jp/special/cha_mt_2026/images/common/ogp-img.jpg" />
+    <meta property="og:description" content="2026年9月26日（土）開催。静岡県森町のデイトナ本社テストコースにバイク好きが集まる年に一度のビッグイベント。入場無料。" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="ROBOTS" content="NOODP" />
+    <link rel="canonical" href="https://www.daytona.co.jp/special/cha_mt_2026/<%= meta.dir %>">
+    <link rel="dns-prefetch" href="//www.daytona.co.jp/">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com/">
+    <link rel="dns-prefetch" href="//use.fontawesome.com/">
+    <link rel="preconnect" href="//www.daytona.co.jp">
+    <link rel="preconnect" href="//cdnjs.cloudflare.com/">
+    <link rel="preconnect" href="//use.fontawesome.com/">
+    <link rel="prefetch" href="<%= path %>css/style.min.css">
+    <link rel="prefetch" href="<%= path %>js/script.min.js">
+    <!-- css -->
+    <link rel="stylesheet" href="<%= path %>css/style.min.css">
+    <!--fontawesome-->
+    <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="icon" href="<%= path %>images/common/favicon.ico" sizes="any">
+    <link rel="icon" href="<%= path %>images/common/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="<%= path %>images/common/apple-touch-icon.png">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Event",
+            "name": "第15回 DAYTONA 森町・静岡茶ミーティング",
+            "alternateName": "茶ミーティング2026",
+            "description": "第15回 DAYTONA 森町・静岡茶ミーティングは、バイク好きが静岡県森町のデイトナに集まり、見て、走って、楽しむ年に一度のビッグイベントです。",
+            "url": "https://www.daytona.co.jp/special/cha_mt_2026/",
+            "image": "https://www.daytona.co.jp/special/cha_mt_2026/images/common/ogp-img.jpg",
+            "startDate": "2026-09-26T09:00:00+09:00",
+            "endDate": "2026-09-26T15:00:00+09:00",
+            "eventStatus": "https://schema.org/EventScheduled",
+            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+            "isAccessibleForFree": true,
+            "location": {
+                "@type": "Place",
+                "name": "株式会社デイトナ本社テストコース",
+                "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "一宮4805",
+                "addressLocality": "周智郡森町",
+                "addressRegion": "静岡県",
+                "postalCode": "437-0226",
+                "addressCountry": "JP"
+                }
+            },
+            "organizer": {
+                "@type": "Organization",
+                "name": "株式会社デイトナ",
+                "url": "https://www.daytona.co.jp/"
+            },
+            "offers": {
+                "@type": "Offer",
+                "url": "https://www.daytona.co.jp/special/cha_mt_2026/",
+                "price": "0",
+                "priceCurrency": "JPY",
+                "availability": "https://schema.org/InStock",
+                "validFrom": "2026-09-26T09:00:00+09:00"
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N5NFSPSW"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header class="l-header<%= meta['page'] === 'exhibitor' ? ' is-scroll' : '' %>">
+        <div class="l-container l-header__parent">
+            <span class="l-header__menu_back"></span>
+
+            <h1 class="l-header__logo">
+                <a href="<%= path %>">
+                    <%- include('../svg/svg_logo'); %>
+                </a>
+            </h1>
+            <div class="l-header-right">
+                <nav id="js-global-menu" class="global__menu<%= meta['page'] === 'exhibitor' ? ' is-scroll' : '' %>">
+                    <ul>
+                        <li><a href="<%= path %>">トップページ</a></li>
+                        <li><a href="<%= path %>exhibitor/">出展者一覧</a></li>
+                        <li><a href="<%= path %>#access">アクセス・駐車場</a></li>
+                        <li><a href="<%= path %>#stage">ステージ</a></li>
+                    </ul>
+                </nav>
+                
+                <a id="js-menu-toggle" class="hamburger__menu<%= meta['page'] === 'exhibitor' ? ' is-scroll' : '' %>">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+                <%- include('../svg/svg_daytona_logo'); %>
+            </div>
+        </div>
+    </header>

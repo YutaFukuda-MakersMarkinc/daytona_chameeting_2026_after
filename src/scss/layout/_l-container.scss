@@ -1,0 +1,14 @@
+@use "../foundation/mixin" as m;
+
+.l-container {
+    width: 80%;
+    max-width: 1500px;
+    margin-inline: auto;
+    @media (width < 640px) {
+        width: 90%;
+    }
+
+    &.w_1200{max-width: 1200px;}
+    &.w_1000{max-width: 1000px;}
+    &.w_900{max-width: 900px;}
+}

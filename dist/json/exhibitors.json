@@ -1,0 +1,915 @@
+[
+  {
+    "name": "防衛省 自衛隊 <span class='c-spbr'>静岡地方協力本部</span>",
+    "url": "https://www.mod.go.jp/pco/sizuoka/",
+    "category": "local",
+    "id": "local_01",
+    "img": "../images/exhibitor/local_01.webp"
+  },
+  {
+    "name": "静岡県警察本部 交通部 <span class='c-spbr'>交通機動隊</span> <span class='c-spbr'>静岡県袋井警察署</span>",
+    "url": "",
+    "category": "local",
+    "id": "local_02",
+    "img": "../images/exhibitor/local_02.webp"
+  },
+  {
+    "name": "袋井消防署森分署 <span class='c-spbr'>消防車展示</span>",
+    "url": "",
+    "category": "local",
+    "id": "local_03",
+    "img": "../images/exhibitor/local_03.webp"
+  },
+
+  {
+    "name": "静岡県観光振興課",
+    "url": "https://www.pref.shizuoka.jp/kensei/introduction/soshiki/1002057/1002831/index.html",
+    "category": "local",
+    "id": "local_22",
+    "img": "../images/exhibitor/local_22.webp"
+  },
+  {
+    "name": "森町観光協会",
+    "url": "https://www.mori-kanko.jp/",
+    "category": "local",
+    "id": "local_04",
+    "img": "../images/exhibitor/local_04.webp"
+  },
+  {
+    "name": "森町 <span class='c-spbr'>「森の茶」の歴史紹介</span>",
+    "url": "https://www.instagram.com/morishiryokan/",
+    "category": "local",
+    "id": "local_05",
+    "img": "../images/exhibitor/local_05.webp"
+  },
+  {
+    "name": "磐田市",
+    "url": "https://kanko-iwata.jp/",
+    "category": "local",
+    "id": "local_06",
+    "img": "../images/exhibitor/local_06.webp"
+  },
+  {
+    "name": "公益財団法人浜松・<span class='c-spbr'>浜名湖ツーリズム</span><span class='c-spbr'>ビューロー</span>",
+    "url": "https://hamamatsu-daisuki.net/hama2/",
+    "category": "local",
+    "id": "local_10",
+    "img": "../images/exhibitor/local_10.webp"
+  },
+
+  {
+    "name": "一般社団法人<span class='c-spbr'>新城市観光協会</span>",
+    "url": "https://shinshirokankou.com/",
+    "category": "local",
+    "id": "local_07",
+    "img": "../images/exhibitor/local_07.webp"
+  },
+  {
+    "name": "菊川市観光協会",
+    "url": "https://kikugawakanko.com/",
+    "category": "local",
+    "id": "local_08",
+    "img": "../images/exhibitor/local_08.webp"
+  },
+
+  
+  {
+    "name": "バイクの駅大船渡",
+    "url": "https://www.city.ofunato.iwate.jp/archive/contents-36522",
+    "category": "local",
+    "id": "local_11",
+    "img": "../images/exhibitor/local_11.webp"
+  },
+    {
+    "name": "(一社)渥美半島<span class='c-spbr'>観光ビューロー</span>",
+    "url": "https://www.taharakankou.gr.jp/",
+    "category": "local",
+    "id": "local_21",
+    "img": "../images/exhibitor/local_21.webp"
+  },
+  {
+    "name": "中日本エクシス株式会社",
+    "url": "https://sapa.c-nexco.co.jp/",
+    "category": "local",
+    "id": "local_09",
+    "img": "../images/exhibitor/local_09.webp"
+  },
+  {
+    "name": "埼玉県小鹿野町",
+    "url": "https://www.town.ogano.lg.jp/",
+    "category": "local",
+    "id": "local_12",
+    "img": "../images/exhibitor/local_12.webp"
+  },
+  {
+    "name": "南信州 売木村",
+    "url": "https://www.urugi.jp",
+    "category": "local",
+    "id": "local_13",
+    "img": "../images/exhibitor/local_13.webp"
+  },
+  {
+    "name": "豊根村観光協会",
+    "url": "https://www.toyonemura-kanko.jp/",
+    "category": "local",
+    "id": "local_14",
+    "img": "../images/exhibitor/local_14.webp"
+  },
+  {
+    "name": "五平餅・ジュースの販売",
+    "url": "https://www.kankoshitara.jp/",
+    "category": "local",
+    "id": "local_15",
+    "img": "../images/exhibitor/local_15.webp"
+  },
+  {
+    "name": "#オマエザキライダー",
+    "url": "https://www.instagram.com/omaezaki_rider/",
+    "category": "local",
+    "id": "local_16",
+    "img": "../images/exhibitor/local_16.webp"
+  },
+  {
+    "name": "河津温泉旅館組合 <span class='c-spbr'>湯けむりライダーズ河津</span>",
+    "url": "https://www.kawazuryokan.net/",
+    "category": "local",
+    "id": "local_17",
+    "img": "../images/exhibitor/local_17.webp"
+  },
+  {
+    "name": "ニコニコカイロ",
+    "url": "http://b.hpr.jp/kr/hp/H000675759",
+    "category": "local",
+    "id": "local_18",
+    "img": "../images/exhibitor/local_18.webp"
+  },
+  {
+    "name": "バルーンアート",
+    "url": "",
+    "category": "local",
+    "id": "local_19",
+    "img": "../images/exhibitor/local_19.webp"
+  },
+  {
+    "name": "マジシャンKISSER",
+    "url": "https://kisser.jp",
+    "category": "local",
+    "id": "local_20",
+    "img": "../images/exhibitor/local_20.webp"
+  },
+
+  {
+    "name": "スズキ",
+    "url": "https://www1.suzuki.co.jp/motor/",
+    "category": "bike",
+    "id": "bike_01",
+    "img": "../images/exhibitor/bike_01.webp"
+  },
+  {
+    "name": "カワサキモータース<span class='c-spbr'>株式会社</span>",
+    "url": "https://www.global-kawasaki-motors.com/",
+    "category": "bike",
+    "id": "bike_02",
+    "img": "../images/exhibitor/bike_02.webp"
+  },
+  {
+    "name": "子ども向け<span class='c-spbr'>マウンテンバイク</span><span class='c-spbr'>展示・紹介 by Forecha</span>",
+    "url": "https://mountain-ride-hub.jp/park/forecha/",
+    "category": "bike",
+    "id": "bike_17",
+    "img": "../images/exhibitor/bike_17.webp"
+  },
+  {
+    "name": "ロイヤルエンフィールド<span class='c-spbr'>静岡・浜松</span>",
+    "url": "https://bike-shizuoka.com/",
+    "category": "bike",
+    "id": "bike_05",
+    "img": "../images/exhibitor/bike_05.webp"
+  },
+  {
+    "name": "Morbidelli/BENDA",
+    "url": "https://www.plotonline.com/plot-mobility/",
+    "category": "bike",
+    "id": "bike_06",
+    "img": "../images/exhibitor/bike_06.webp"
+  },
+  {
+    "name": "MV AGUSTA",
+    "url": "https://www.mvagusta.com/jp/ja",
+    "category": "bike",
+    "id": "bike_08",
+    "img": "../images/exhibitor/bike_08.webp"
+  },
+  {
+    "name": "F.B Mondial Japan",
+    "url": "https://fbmondial.jp/",
+    "category": "bike",
+    "id": "bike_10",
+    "img": "../images/exhibitor/bike_10.webp"
+  },
+  {
+    "name": "カワサキ プラザ浜松",
+    "url": "https://www.kawasaki-motors.com/ja-jp/plaza-store/hamamatsu/",
+    "category": "bike",
+    "id": "bike_07",
+    "img": "../images/exhibitor/bike_07.webp"
+  },
+  
+  {
+    "name": "KM元浜",
+    "url": "https://kawashima-motors.co.jp/",
+    "category": "bike",
+    "id": "bike_12",
+    "img": "../images/exhibitor/bike_12.webp"
+  },
+  {
+    "name": "ホンダドリーム焼津",
+    "url": "https://www.dream-yaizu.com",
+    "category": "bike",
+    "id": "bike_13",
+    "img": "../images/exhibitor/bike_13.webp"
+  },
+  {
+    "name": "YSP袋井",
+    "url": "https://fukuroi.ysp-shop.com/",
+    "category": "bike",
+    "id": "bike_14",
+    "img": "../images/exhibitor/bike_14.webp"
+  },
+  {
+    "name": "ドゥカティ浜松",
+    "url": "https://ducati-hamamatsu.com",
+    "category": "bike",
+    "id": "bike_15",
+    "img": "../images/exhibitor/bike_15.webp"
+  },
+  {
+    "name": "Motorrad Hamamatsu",
+    "url": "https://www.datz-bmw.jp/outline/hamamatsu/",
+    "category": "bike",
+    "id": "bike_16",
+    "img": "../images/exhibitor/bike_16.webp"
+  },
+  {
+    "name": "IBS",
+    "url": "https://ibsweb.jp/",
+    "category": "bike",
+    "id": "bike_18",
+    "img": "../images/exhibitor/bike_18.webp"
+  },
+  {
+    "name": "CFMOTO",
+    "url": "https://ibsweb.jp/cfmoto",
+    "category": "bike",
+    "id": "bike_11",
+    "img": "../images/exhibitor/bike_11.webp"
+  },
+  
+  {
+    "name": "キッズ電動バイク体験",
+    "url": "https://www.yotsubakids.jp/",
+    "category": "bike",
+    "id": "bike_09",
+    "img": "../images/exhibitor/bike_09.webp"
+  },
+  {
+    "name": "OGUshow",
+    "url": "https://www.ogushow.co.jp/",
+    "category": "bike",
+    "id": "bike_04",
+    "img": "../images/exhibitor/bike_04.webp"
+  },
+  {
+    "name": "Blow",
+    "url": "https://www.blow-net.co.jp/",
+    "category": "bike",
+    "id": "bike_03",
+    "img": "../images/exhibitor/bike_03.webp"
+  },
+
+  {
+    "name": "菓匠あさおか",
+    "url": "https://kasho-asaoka.jimdofree.com/",
+    "category": "food",
+    "id": "food_15",
+    "img": "../images/exhibitor/food_15.webp"
+  },
+  {
+    "name": "いしだ茶屋",
+    "url": "https://www.ishida-chaya.jp/",
+    "category": "food",
+    "id": "food_09",
+    "img": "../images/exhibitor/food_09.webp"
+  },
+  {
+    "name": "山中屋",
+    "url": "",
+    "category": "food",
+    "id": "food_03",
+    "img": "../images/exhibitor/food_03.webp"
+  },
+  
+  {
+    "name": "７福神森町本店",
+    "url": "",
+    "category": "food",
+    "id": "food_07",
+    "img": "../images/exhibitor/food_07.webp"
+  },
+  {
+    "name": "フランキーノブ",
+    "url": "https://www.instagram.com/franky_nob/",
+    "category": "food",
+    "id": "food_11",
+    "img": "../images/exhibitor/food_11.webp"
+  },
+ {
+    "name": "京華小吃(ジンホア）",
+    "url": "https://www.jinghua-xiaochi.jp/",
+    "category": "food",
+    "id": "food_05",
+    "img": "../images/exhibitor/food_05.webp"
+  },
+  {
+    "name": "FOODTRUCK39",
+    "url": "https://www.instagram.com/food_truck39/",
+    "category": "food",
+    "id": "food_06",
+    "img": "../images/exhibitor/food_06.webp"
+  },
+  {
+    "name": "丸山荘 鳳来寺山頂店",
+    "url": "https://www.houraijisan-maruyamasou.com/",
+    "category": "food",
+    "id": "food_02",
+    "img": "../images/exhibitor/food_02.webp"
+  },
+  {
+    "name": "SayaSweetsGarage",
+    "url": "https://www.instagram.com/sayasweetsgarage/",
+    "category": "food",
+    "id": "food_08",
+    "img": "../images/exhibitor/food_08.webp"
+  },
+  {
+    "name": "お茶のかねまつ <span class='c-spbr'>角打ち茶屋</span>",
+    "url": "https://www.ocha-kanematsu.jp",
+    "category": "food",
+    "id": "food_10",
+    "img": "../images/exhibitor/food_10.webp"
+  },
+  {
+    "name": "浜松タコス",
+    "url": "https://www.instagram.com/hamamatsu.tacos/",
+    "category": "food",
+    "id": "food_04",
+    "img": "../images/exhibitor/food_04.webp"
+  },
+  {
+    "name": "自家焙煎珈琲屋 百珈",
+    "url": "https://coffee-roaster-moka.shopinfo.jp/",
+    "category": "food",
+    "id": "food_12",
+    "img": "../images/exhibitor/food_12.webp"
+  },
+  {
+    "name": "イワタライスランド",
+    "url": "https://www.instagram.com/p/DVNBJoqEop9/",
+    "category": "food",
+    "id": "food_13",
+    "img": "../images/exhibitor/food_13.webp"
+  },
+  {
+    "name": "エル・アイ・ビバレッジ",
+    "url": "",
+    "category": "food",
+    "id": "food_14",
+    "img": "../images/exhibitor/food_14.webp"
+  },
+
+  {
+    "name": "マルフク",
+    "url": "https://www.instagram.com/maruhuku_/",
+    "category": "food",
+    "id": "food_01",
+    "img": "../images/exhibitor/food_01.webp"
+  },
+
+  {
+    "name": "No.21",
+    "url": "https://www.instagram.com/no.21_gram?igsh=MWUxeng5em9wN2VhZg%3D%3D&utm_source=qr",
+    "category": "food",
+    "id": "food_16",
+    "img": "../images/exhibitor/food_16.webp"
+  },
+  {
+    "name": "SCOYCO / ASTONE（HATOYA）",
+    "url": "https://online.hatoya.co.jp/",
+    "category": "exhibition",
+    "id": "exhibition_01",
+    "img": "../images/exhibitor/exhibition_01.webp"
+  },
+  {
+    "name": "Max Fritz",
+    "url": "https://maxfritz.jp/",
+    "category": "exhibition",
+    "id": "exhibition_02",
+    "img": "../images/exhibitor/exhibition_02.webp"
+  },
+
+  {
+    "name": "alpinestars",
+    "url": "https://www.okada-ridemoto.com/",
+    "category": "exhibition",
+    "id": "exhibition_04",
+    "img": "../images/exhibitor/exhibition_04.webp"
+  },
+  {
+    "name": "ニコニコレイトブース",
+    "url": "https://www.reit-net.com/",
+    "category": "exhibition",
+    "id": "exhibition_05",
+    "img": "../images/exhibitor/exhibition_05.webp"
+  },
+  {
+    "name": "TERAMOTO<span class='c-spbr'>(寺本自動車商会）</span>",
+    "url": "https://www.teramoto.biz/",
+    "category": "exhibition",
+    "id": "exhibition_06",
+    "img": "../images/exhibitor/exhibition_06.webp"
+  },
+  {
+    "name": "TOPS",
+    "url": "http://www.tops.co.jp/",
+    "category": "exhibition",
+    "id": "exhibition_07",
+    "img": "../images/exhibitor/exhibition_07.webp"
+  },
+  {
+    "name": "J・TRIP",
+    "url": "http://j-trip.co.jp",
+    "category": "exhibition",
+    "id": "exhibition_08",
+    "img": "../images/exhibitor/exhibition_08.webp"
+  },
+  {
+    "name": "Rosso StyleLab / urbanism",
+    "url": "https://www.j-amble.com/",
+    "category": "exhibition",
+    "id": "exhibition_09",
+    "img": "../images/exhibitor/exhibition_09.webp"
+  },
+  {
+    "name": "VICTORYKISS HOUSTON＆GREEDY",
+    "url": "https://www.victorykiss.co.jp/",
+    "category": "exhibition",
+    "id": "exhibition_10",
+    "img": "../images/exhibitor/exhibition_10.webp"
+  },
+  {
+    "name": "DEGNER",
+    "url": "https://www.degner.co.jp/",
+    "category": "exhibition",
+    "id": "exhibition_11",
+    "img": "../images/exhibitor/exhibition_11.webp"
+  },
+  {
+    "name": "ALFAPARTS",
+    "url": "",
+    "category": "exhibition",
+    "id": "exhibition_12",
+    "img": "../images/exhibitor/exhibition_12.webp"
+  },
+  {
+    "name": "株式会社 山城",
+    "url": "https://www.yamashiro1951.co.jp/",
+    "category": "exhibition",
+    "id": "exhibition_13",
+    "img": "../images/exhibitor/exhibition_13.webp"
+  },
+  {
+    "name": "TAICHI ＆ <span class='c-spbr'>HJCヘルメット</span>",
+    "url": "https://www.rs-taichi.com/",
+    "category": "exhibition",
+    "id": "exhibition_14",
+    "img": "../images/exhibitor/exhibition_14.webp"
+  },
+  {
+    "name": "PRIMAL",
+    "url": "https://primal-jp.com/",
+    "category": "exhibition",
+    "id": "exhibition_15",
+    "img": "../images/exhibitor/exhibition_15.webp"
+  },
+  {
+    "name": "シュアラスター",
+    "url": "https://www.surluster.jp/",
+    "category": "exhibition",
+    "id": "exhibition_16",
+    "img": "../images/exhibitor/exhibition_16.webp"
+  },
+  {
+    "name": "SPY SAXX",
+    "url": "https://www.leotanimoto.co.jp/",
+    "category": "exhibition",
+    "id": "exhibition_17",
+    "img": "../images/exhibitor/exhibition_17.webp"
+  },
+  {
+    "name": "U-KANAYA",
+    "url": "https://www.uchishokai.com",
+    "category": "exhibition",
+    "id": "exhibition_18",
+    "img": "../images/exhibitor/exhibition_18.webp"
+  },
+  {
+    "name": "SEED岡崎 SPROUT",
+    "url": "https://www.ricoland.co.jp/shopinfo/okazaki/",
+    "category": "exhibition",
+    "id": "exhibition_19",
+    "img": "../images/exhibitor/exhibition_19.webp"
+  },
+  {
+    "name": "RIDEZ",
+    "url": "https://ridez.jp/",
+    "category": "exhibition",
+    "id": "exhibition_20",
+    "img": "../images/exhibitor/exhibition_20.webp"
+  },
+  {
+    "name": "オートバイブックス",
+    "url": "https://autobikebooks.wixsite.com/story",
+    "category": "exhibition",
+    "id": "exhibition_21",
+    "img": "../images/exhibitor/exhibition_21.webp"
+  },
+  {
+    "name": "アールズ・ギア",
+    "url": "https://www.rsgear.co.jp/",
+    "category": "exhibition",
+    "id": "exhibition_22",
+    "img": "../images/exhibitor/exhibition_22.webp"
+  },
+  {
+    "name": "株式会社キジマ",
+    "url": "https://shop.tk-kijima.co.jp/index.html",
+    "category": "exhibition",
+    "id": "exhibition_23",
+    "img": "../images/exhibitor/exhibition_23.webp"
+  },
+  {
+    "name": "フラッグシップ",
+    "url": "https://flag-ship.co.jp/",
+    "category": "exhibition",
+    "id": "exhibition_24",
+    "img": "../images/exhibitor/exhibition_24.webp"
+  },
+  {
+    "name": "RunWind",
+    "url": "https://mls2359.com/",
+    "category": "exhibition",
+    "id": "exhibition_25",
+    "img": "../images/exhibitor/exhibition_25.webp"
+  },
+  {
+    "name": "BEETJAPAN",
+    "url": "https://www.beet.co.jp/",
+    "category": "exhibition",
+    "id": "exhibition_26",
+    "img": "../images/exhibitor/exhibition_26.webp"
+  },
+  {
+    "name": "クーケースジャパン",
+    "url": "https://bit.ly/3PR3G83",
+    "category": "exhibition",
+    "id": "exhibition_27",
+    "img": "../images/exhibitor/exhibition_27.webp"
+  },
+  {
+    "name": "WALL BONE",
+    "url": "https://framer40.wixsite.com/my-site",
+    "category": "exhibition",
+    "id": "exhibition_28",
+    "img": "../images/exhibitor/exhibition_28.webp"
+  },
+  {
+    "name": "KYT / SUOMY HELMET",
+    "url": "https://kytjapan.com/",
+    "category": "exhibition",
+    "id": "exhibition_29",
+    "img": "../images/exhibitor/exhibition_29.webp"
+  },
+  {
+    "name": "D.I.D",
+    "url": "https://didmc.com/",
+    "category": "exhibition",
+    "id": "exhibition_30",
+    "img": "../images/exhibitor/exhibition_30.webp"
+  },
+  {
+    "name": "MOTUL",
+    "url": "https://www.motul.com/ja-JP",
+    "category": "exhibition",
+    "id": "exhibition_31",
+    "img": "../images/exhibitor/exhibition_31.webp"
+  },
+  {
+    "name": "WINS",
+    "url": "https://www.wins-japan.com/",
+    "category": "exhibition",
+    "id": "exhibition_32",
+    "img": "../images/exhibitor/exhibition_32.webp"
+  },
+  {
+    "name": "VANSON LEATHERS",
+    "url": "https://navy98mcwear.com/",
+    "category": "exhibition",
+    "id": "exhibition_33",
+    "img": "../images/exhibitor/exhibition_33.webp"
+  },
+
+  {
+    "name": "ダートフリーク",
+    "url": "https://www.dirtfreak.co.jp/",
+    "category": "exhibition02",
+    "id": "exhibition_34",
+    "img": "../images/exhibitor/exhibition_34.webp"
+  },
+
+  {
+    "name": "TORQUE",
+    "url": "https://torque.kyocera.co.jp/",
+    "category": "exhibition02",
+    "id": "exhibition_39",
+    "img": "../images/exhibitor/exhibition_39.webp"
+  },
+  {
+    "name": "Dope MOTORCYCLE AND OUTDOORS",
+    "url": "https://dope.camp/",
+    "category": "exhibition02",
+    "id": "exhibition_35",
+    "img": "../images/exhibitor/exhibition_35.webp"
+  },
+  {
+    "name": "BabyFace",
+    "url": "https://www.babyface.co.jp/",
+    "category": "exhibition02",
+    "id": "exhibition_36",
+    "img": "../images/exhibitor/exhibition_36.webp"
+  },
+  {
+    "name": "茗荷シート",
+    "url": "https://m-seat.jp",
+    "category": "exhibition02",
+    "id": "exhibition_37",
+    "img": "../images/exhibitor/exhibition_37.webp"
+  },
+  {
+    "name": "モトサービスエッジ",
+    "url": "https://ms-edge.jp/",
+    "category": "exhibition02",
+    "id": "exhibition_38",
+    "img": "../images/exhibitor/exhibition_38.webp"
+  },
+
+  {
+    "name": "SHOEI Gallery OKAZAKI",
+    "url": "https://x.com/SHOEI_OKAZAKI",
+    "category": "exhibition02",
+    "id": "exhibition_40",
+    "img": "../images/exhibitor/exhibition_40.webp"
+  },
+  {
+    "name": "DainaoGarageFactory",
+    "url": "https://www.dainao.net",
+    "category": "exhibition02",
+    "id": "exhibition_41",
+    "img": "../images/exhibitor/exhibition_41.webp"
+  },
+  {
+    "name": "株式会社東単",
+    "url": "https://www.tohtan.com/",
+    "category": "exhibition02",
+    "id": "exhibition_42",
+    "img": "../images/exhibitor/exhibition_42.webp"
+  },
+    {
+    "name": "Garage sauna<span class='c-spbr'>（ガレージ サウナ）</span>",
+    "url": "https://www.garage-sauna.jp/",
+    "category": "exhibition02",
+    "id": "exhibition_03",
+    "img": "../images/exhibitor/exhibition_03.webp"
+  },
+  {
+    "name": "ミシュランモーター<span class='c-spbr'>サイクルタイヤ</span>",
+    "url": "https://sites.google.com/view/michelin-shizuoka/%E3%83%9B%E3%83%BC%E3%83%A0",
+    "category": "exhibition02",
+    "id": "exhibition_43",
+    "img": "../images/exhibitor/exhibition_43.webp"
+  },
+  {
+    "name": "STRIKER",
+    "url": "https://www.striker.co.jp",
+    "category": "exhibition02",
+    "id": "exhibition_44",
+    "img": "../images/exhibitor/exhibition_52.webp"
+  },
+  {
+    "name": "K&H",
+    "url": "https://kandh.co.jp/",
+    "category": "exhibition02",
+    "id": "exhibition_45",
+    "img": "../images/exhibitor/exhibition_45.webp"
+  },
+  {
+    "name": "SP忠男",
+    "url": "https://www.sptadao.co.jp/",
+    "category": "exhibition02",
+    "id": "exhibition_46",
+    "img": "../images/exhibitor/exhibition_46.webp"
+  },
+  
+  {
+    "name": "SPEC-A <span class='c-spbr'>ヤマモトレーシング</span>",
+    "url": "https://www.yamamoto-eng.co.jp/",
+    "category": "exhibition02",
+    "id": "exhibition_48",
+    "img": "../images/exhibitor/exhibition_48.webp"
+  },
+
+  {
+    "name": "IPONE",
+    "url": null,
+    "category": "exhibition02",
+    "id": "exhibition_49",
+    "img": "../images/exhibitor/exhibition_49.webp"
+  },
+
+  {
+    "name": "長野ベルト",
+    "url": null,
+    "category": "exhibition",
+    "id": "exhibition_50",
+    "img": "../images/exhibitor/exhibition_50.webp"
+  },
+  {
+    "name": "株式会社 谷尾商会 / LIQUIMOLY",
+    "url": "https://www.tanio.jp/LIQUIMOLY/",
+    "category": "exhibition",
+    "id": "exhibition_51",
+    "img": "../images/exhibitor/exhibition_51.webp"
+  },
+
+  {
+    "name": "ババナショックス",
+    "url": "https://babanashox.co.jp/",
+    "category": "exhibition",
+    "id": "exhibition_53",
+    "img": "../images/exhibitor/exhibition_53.webp"
+  },
+
+  {
+    "name": "(株)リード工業",
+    "url": "https://www.weblead.co.jp/",
+    "category": "exhibition",
+    "id": "exhibition_54",
+    "img": "../images/exhibitor/exhibition_54.webp"
+  },
+
+    {
+    "name": "ポッシュフェイス",
+    "url": "https://www.posh-faith.co.jp/",
+    "category": "exhibition",
+    "id": "exhibition_47",
+    "img": "../images/exhibitor/exhibition_47.webp"
+  },
+
+  {
+    "name": "オートバイ",
+    "url": "https://www.autoby.jp/",
+    "category": "media",
+    "id": "media_03",
+    "img": "../images/exhibitor/media_03.webp"
+  },
+  {
+    "name": "CarXs（カーエックス）",
+    "url": "https://car-xs.tv/",
+    "category": "media",
+    "id": "media_08",
+    "img": "../images/exhibitor/media_08.webp"
+  },
+  {
+    "name": "ヨエロスン",
+    "url": "https://www.at-s.com/sbstv/program/yoerosun/",
+    "category": "media",
+    "id": "media_02",
+    "img": "../images/exhibitor/media_02.webp"
+  },
+  {
+    "name": "タンデムスタイル×クラブハーレー×カワサキバイクマガジン",
+    "url": "https://heritage.inc/",
+    "category": "media",
+    "id": "media_01",
+    "img": "../images/exhibitor/media_01.webp"
+  },
+  {
+    "name": "ツーリングマップル",
+    "url": "https://www.touring.mapple.net/",
+    "category": "media",
+    "id": "media_05",
+    "img": "../images/exhibitor/media_05.webp"
+  },
+  {
+    "name": "Motorcyclist",
+    "url": "https://mc-web.jp/",
+    "category": "media",
+    "id": "media_06",
+    "img": "../images/exhibitor/media_06.webp"
+  },
+  {
+    "name": "MotoMegane<span class='c-spbr'>(モトメガネ)</span>",
+    "url": "https://www.motomegane.com/",
+    "category": "media",
+    "id": "media_07",
+    "img": "../images/exhibitor/media_07.webp"
+  },
+  {
+    "name": "ノーリミットジャパン",
+    "url": "https://prorider.jp/",
+    "category": "media",
+    "id": "media_04",
+    "img": "../images/exhibitor/media_04.webp"
+  },
+
+
+  {
+    "name": "MotoSmile&かなえADV",
+    "url": "https://motiv.co.jp/",
+    "category": "youtuber",
+    "id": "youtuber_07",
+    "img": "../images/exhibitor/youtuber_07.webp"
+  },
+  {
+    "name": "ともこ東海レディース",
+    "url": "https://www.youtube.com/@tomokotl",
+    "category": "youtuber",
+    "id": "youtuber_05",
+    "img": "../images/exhibitor/youtuber_05.webp"
+  },
+  {
+    "name": "MUchannel",
+    "url": "https://www.youtube.com/@MUchannel",
+    "category": "youtuber",
+    "id": "youtuber_08",
+    "img": "../images/exhibitor/youtuber_08.webp"
+  },
+  {
+    "name": "VREAST",
+    "url": "https://www.youtube.com/@VREAST",
+    "category": "youtuber",
+    "id": "youtuber_09",
+    "img": "../images/exhibitor/youtuber_09.webp"
+  },
+  {
+    "name": "*saetube*",
+    "url": "https://www.youtube.com/@saetube/videos",
+    "category": "youtuber",
+    "id": "youtuber_10",
+    "img": "../images/exhibitor/youtuber_10.webp"
+  },
+  {
+    "name": "青月電視台",
+    "url": "https://www.youtube.com/@aotsukiTV",
+    "category": "youtuber",
+    "id": "youtuber_06",
+    "img": "../images/exhibitor/youtuber_06.webp"
+  },
+  {
+    "name": "みやのニハリ<span class='c-spbr'>(secondtune)</span>",
+    "url": "https://www.youtube.com/@secondtune2845",
+    "category": "youtuber",
+    "id": "youtuber_02",
+    "img": "../images/exhibitor/youtuber_02.webp"
+  },
+  {
+    "name": "ao",
+    "url": "https://youtube.com/@aocha1123se?si=8I1SJknhkJHk1vnH",
+    "category": "youtuber",
+    "id": "youtuber_03",
+    "img": "../images/exhibitor/youtuber_03.webp"
+  },
+  {
+    "name": "すーぱー☆<span class='c-spbr'>えこちゃんねる</span>",
+    "url": "https://www.youtube.com/@BikeladycosplayerEKO",
+    "category": "youtuber",
+    "id": "youtuber_04",
+    "img": "../images/exhibitor/youtuber_04.webp"
+  },
+  {
+    "name": "stonemaker003",
+    "url": "https://moored-paste-681.notion.site/Throttle-311ce93a5a5980b1a85aca6fa20a8b70",
+    "category": "youtuber",
+    "id": "youtuber_01",
+    "img": "../images/exhibitor/youtuber_01.webp"
+  }
+]

@@ -1,0 +1,130 @@
+@use "../../foundation/mixin" as m;
+@use "../../foundation/color" as c;
+
+.pg-index__stream {
+    padding: 60px 0;
+    background: c.$primary;
+
+    h2 {
+        margin-bottom: 60px;
+
+        img {
+            max-width: 550px;
+            width: 80%;
+            margin-inline: auto;
+        }
+    }
+
+    .col3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 45px;
+        margin-bottom: 2rem;
+
+        @media (width < 1200px) {
+            gap: 30px;
+        }
+
+        @include m.mq(sp){
+            gap: 15px;
+        }
+
+        @media (width < 700px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    .stream_item {
+        display: grid;
+        grid-template-rows: subgrid;
+        align-items: center;
+        grid-row: span 3;
+        gap: 10px;
+        background: white;
+        border: solid 8px black;
+        border-radius: 24px;
+        padding: 30px 30px 45px;
+
+        @media (width < 1200px) {
+            padding: 15px 15px 30px;
+        }
+
+        @media (width < 640px) {
+            border-width: 5px;
+        }
+
+        .logo{
+            .w_80{
+                width: 80%;
+            }
+
+            .w_70{
+                width: 70%;
+            }
+
+            .w_60{
+                width: 60%;
+            }
+
+            .w_50{
+                width: 50%;
+            }
+
+            img{
+                margin-inline: auto;
+            }
+        }
+
+        h3{
+            font-weight: 700;
+            text-align: center;
+            font-size: clamp(1rem,1.5vw,1.1rem);
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+
+        a{
+            position: relative;
+            display: block;
+            width: fit-content;
+            text-align: center;
+            top: 0;
+            transition: all 0.3s ease;
+            font-weight: 700;
+            margin-inline: auto;
+            line-height: 1.5;
+            filter: drop-shadow(0 8px 0 rgba(230,207,0,1));
+            font-size: clamp(.9rem,1vw,1rem);
+
+            @media(any-hover: hover) {
+                &:hover {
+                    top: 8px;
+                    filter: drop-shadow(0 0 0 rgba(230,207,0,1));
+                }
+            }
+        }
+    }
+    a.c-button__round{
+        position: relative;
+        display: block;
+        width: fit-content;
+        text-align: center;
+        top: 0;
+        transition: all 0.3s ease;
+        font-weight: 700;
+        margin-inline: auto;
+        line-height: 1.5;
+        margin: 0 auto;
+        width: 90%;
+        max-width: 630px;
+        filter: drop-shadow(0 8px 0 rgba(230,207,0,1));
+        font-size: clamp(1.2rem,1.2vw,1.5rem);
+        @media(any-hover: hover) {
+            &:hover {
+                top: 8px;
+                filter: drop-shadow(0 0 0 rgba(230,207,0,1));
+            }
+        }
+    }
+
+}

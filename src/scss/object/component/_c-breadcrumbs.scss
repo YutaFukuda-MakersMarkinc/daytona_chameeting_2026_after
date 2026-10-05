@@ -1,0 +1,32 @@
+@use "../../foundation/color" as c;
+@use "../../foundation/mixin" as m;
+
+.c-breadcrumbs {
+    padding: 15px 0;
+
+    ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 16px;
+        li {
+            font-size: clamp(.8rem,1vw,.9rem);
+
+            &:not(:last-child) {
+                display: grid;
+                grid-template-columns: 1fr auto;
+                align-items: center;
+                gap: 16px;
+                &::after {
+                    content: '';
+                    display: inline-block;
+                    width: 6px;
+                    height: 6px;
+                    border-top: solid 1px c.$black;
+                    border-right: solid 1px c.$black;
+                    transform: rotate(45deg);
+                }
+            }
+        }
+    }
+}

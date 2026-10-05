@@ -1,0 +1,281 @@
+@use "../foundation/color" as c;
+@use "../foundation/font" as f;
+@use "../foundation/mixin" as m;
+
+.l-footer {
+    position: sticky;
+    top: 100%;
+    padding: 120px 0;
+    background: c.$black;
+    color: white;
+    font-family: f.$font-sans;
+    font-weight: 400;
+    z-index: 15;
+
+    .pict{
+        position: absolute;
+        top: 0;
+        transform: translate(0, -100%);
+
+        &.pict_01{
+            max-width: 80px;
+            width: 80%;
+            //left: 5%;
+
+            @media (width < 640px) {
+                max-width: 65px;
+            }
+        }
+        
+        &.pict_02{
+            max-width: 90px;
+            width: 90%;
+            //left: 50%;
+            
+            @media (width < 640px) {
+                max-width: 75px;
+                //left: 40%;
+            }
+        }
+        
+        &.pict_03{
+            max-width: 120px;
+            width: 100%;
+            //left: 85%;
+            
+            @media (width < 640px) {
+                max-width: 100px;
+                //left: 70%;
+            }
+        }
+    }
+
+    .nav {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 60px;
+        margin-bottom: 90px;
+
+        @include m.mq(sp) {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .left {
+        .logo {
+            display: block;
+            max-width: 220px;
+            width: 80%;
+            fill: white;
+            margin-bottom: 30px;
+        }
+
+        address {
+            text-decoration: none;
+            color: white;
+            font-size: clamp(.8em, 1vw, .9rem);
+        }
+    }
+
+    .right {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        gap: 15px 30px;
+        font-weight: 400;
+        font-size: clamp(.8rem, 1vw, .9rem);
+
+        @include m.mq(sp_min) {
+            grid-template-columns: repeat(2, auto);
+        }
+
+        li {
+            &:not(:last-of-type) {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .col2 {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        align-items: center;
+        gap: 30px;
+
+        @include m.mq(sp) {
+            grid-template-columns: 1fr;
+        }
+
+        .copyright {
+            font-size: clamp(.7rem, 1vw, .8rem);
+            letter-spacing: .08em;
+
+            @include m.mq(sp) {
+                order: 2;
+                text-align: center;
+            }
+        }
+
+        .sns {
+            @include m.flexbox(flex-end, center, wrap);
+            gap: 15px;
+
+            @include m.mq(sp) {
+                justify-content: center;
+                order: 1;
+            }
+
+            p {
+                font-size: clamp(.7rem, 1vw, .8rem);
+
+                @include m.mq(sp_min) {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+
+            li {
+                width: 50px;
+                height: 50px;
+                color: c.$black;
+                font-size: clamp(1.2rem, 1.5vw, 1.4rem);
+
+                a {
+                    display: block;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 100%;
+                    background: white;
+                    border-radius: 100vmax;
+                    width: 50px;
+                    height: 50px;
+                    transition: transform .2s;
+                }
+
+                @media (any-hover: hover) {
+                    &:hover a {
+                        animation: superBall .5s cubic-bezier(.2, .8, .2, 1);
+                    }
+                }
+
+                @keyframes superBall {
+                    0% {
+                        transform: scale(1, 1) translateY(0);
+                    }
+
+                    // しゃがむ
+                    15% {
+                        transform: scale(1.15, .85) translateY(0);
+                    }
+
+                    // ジャンプ
+                    35% {
+                        transform: scale(.9, 1.1) translateY(-18px);
+                    }
+
+                    // 着地
+                    55% {
+                        transform: scale(1.08, .92) translateY(0);
+                    }
+
+                    // 小さく跳ね返る
+                    70% {
+                        transform: scale(.96, 1.04) translateY(-6px);
+                    }
+
+                    85% {
+                        transform: scale(1.02, .98) translateY(0);
+                    }
+
+                    100% {
+                        transform: scale(1, 1) translateY(0);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.pict {
+  position: relative;
+}
+
+.pict img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.pict img:not(:first-child) {
+  position: absolute;
+  inset: 0;
+}
+
+.pict img {
+  opacity: 0;
+}
+
+.pict img.is-active {
+  opacity: 1;
+}
+
+.pict {
+  position: absolute;
+  right: 0;
+  animation-name: pictWalk;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  will-change: transform;
+  pointer-events: none;
+
+}
+
+/* 2コマ画像を重ねる設定 */
+.pict img {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+}
+
+.pict img:not(:first-child) {
+  position: absolute;
+  inset: 0;
+}
+
+.pict img.is-active {
+  opacity: 1;
+}
+
+/* 個別設定 */
+.pict_01 {
+  //width: 180px;
+  //bottom: 12%;
+  animation-duration: 25s;
+  animation-delay: 0s;
+}
+
+.pict_02 {
+  //width: 160px;
+  //bottom: 8%;
+  animation-duration: 35s;
+  animation-delay: -15s;
+}
+
+.pict_03 {
+  //width: 200px;
+  //bottom: 16%;
+  animation-duration: 40s;
+  animation-delay: -20s;
+}
+
+@keyframes pictWalk {
+  0% {
+    transform: translate(120%, -100%);
+  }
+
+  100% {
+    transform: translate(calc(-100vw - 120%), -100%);
+  }
+}

@@ -1,0 +1,19 @@
+SetEnvIf Request_URI ".*" Ngx_Cache_NoCacheMode=off
+SetEnvIf Request_URI ".*" Ngx_Cache_AllCacheMode
+
+#SSL環境へのリダイレクト
+RewriteEngine On
+RewriteCond %{HTTPS} !on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+#indexファイル名有りから、無しへのリダイレクト
+RewriteCond %{REQUEST_URI} ^.*/index.(html|php)
+RewriteRule ^(.*)index.(html|php)$ https://www.example.com/$1 [R=301,L]
+
+#末尾のスラッシュ無しから、スラッシュ有りへのリダイレクト 
+RewriteCond %{REQUEST_URI} !/$
+RewriteCond %{REQUEST_URI} !\.[^/\.]+$
+RewriteRule .* %{REQUEST_URI}/ [R=301,L]
+
+#Not Foundの時に、オリジナルのページへリダイレクトする
+ErrorDocument 404 /404/
