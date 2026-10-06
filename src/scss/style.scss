@@ -19,11 +19,16 @@
 
 //Page - Index
 @use "pages/index/pg-index__headline";
+@use "pages/index/pg-index__finish";
 @use "pages/index/pg-index__intro";
 @use "pages/index/pg-index__stage";
 @use "pages/index/pg-index__outline";
 @use "pages/index/pg-index__stream";
 @use "pages/index/pg-index__access";
+
+//Page - 会期終了_ギャラリー
+@use "pages/index/pg-index__gallery";
+
 
 // Page - Exhibitor
 @use "pages/exhibitor/pg-exhibitor__head";
